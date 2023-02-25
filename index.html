@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, ">
     <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
     
     <link rel="stylesheet" href="style.css">
@@ -18,7 +18,7 @@
     <div class="header">
         <h1>ค <span>๓ค</span>ɭ</h1>
         <div class="nav">
-            <div class=" bax bax-menu" id="menu-icon"></div>
+          
            
             <ul>
                 <li><a href="#home"  style="--i:1;" class="active">Home</a></li>
@@ -26,10 +26,10 @@
                 <li><a href="#skil" style="--i:3;">Skills</a></li>
                 <li><a href="#pro" style="--i:4;">Projects</a></li>
                 <li><a href="#contect" style="--i:5;">Contact</a></li>
-               
+                 <!-- <div class=" bax bax-menu" id="menu-icon"></div> -->
                 
                 <iconify-icon icon="material-symbols:menu" class="fas"></iconify-icon>
-            <iconify-icon icon="ic:outline-close" class="fa"></iconify-icon>
+            <!-- <iconify-icon icon="ic:outline-close" class="fa"></iconify-icon> -->
             </ul>
             
         </div>
@@ -278,37 +278,48 @@
             .then(response => console.log('Success!', response))
             .catch(error => console.error('Error!', error.message))
         })
-      </script>
-
-
-<script>
-    let header = document.querySelector("header");
-   let fas = document.querySelector("fas");
-   let nav = document.querySelector(".nav");
-   function myFunction() {
+        function myFunction() {
   var header = document.getElementById("nav");
   if (fasclassName === "nav") {
     fas.className += " nav ";
-  } else {
+   } else {
     nav.className = "nav";
   }
 }
+ 
+      </script>
 
-//   window.addEventListener("scroll", () => {
-//   header.classList.toggle("shadow", window.scrollY > 0);
-// });
 
-// fas.onclick = (nav) => {
-//     nav.classList.toggle("active");
+<!-- <script>
+    let header = document.querySelector("header");
+   let fas = document.querySelector(".fas");
+   let nav = document.querySelector(".nav");
+    window.addEventListener("scroll", () => {
+  header.classList.toggle("shadow", window.scrollY > 0);
+});
+
+ fas.onclick = (nav) => {
+    nav.classList.toggle("active");
   
-// };
-//  window.onscroll = () => {
+ };
+  window.onscroll = () => {
 
     
-//         nav.classList.remove("active");
+      nav.classList.remove("active");
 
  
-// };
+}; -->
+
+<!-- //    function myFunction() {
+//   var header = document.getElementById("nav");
+//   if (fasclassName === "nav") {
+//     fas.className += " nav ";
+//   } else {
+//     nav.className = "nav";
+//   }
+// }
+ -->
+
 
 </script>
 </body>
