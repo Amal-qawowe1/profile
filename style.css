@@ -44,6 +44,10 @@ html{
 span{
     color: coral;
 }
+.ani iconify-icon {
+    width: 15px;
+    height: 15px;
+}
 .active{
     color: coral;
 }
@@ -217,6 +221,24 @@ h2{
         opacity: 1;
     }
 }
+.ansalskils h6{
+    margin-top: 110px;
+    color: coral;
+    font-size: 34px;
+    margin-left: 70px;
+}
+.anfac{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+}
+.anfac1 ul li{
+    color: rgb(206, 221, 235);
+    
+}
 .about{
     display: grid;
     grid-template-columns: 350px 600px;
@@ -294,6 +316,10 @@ h2{
     height: 300px;
    
 } */
+.ansalskils h6{
+    color: #ffffff;
+    font-size: 18px;
+}
 .skil1 iconify-icon {
     color: #ffffff;
     text-decoration: none;
@@ -316,13 +342,15 @@ h2{
     /* background-color: #0ef;
     width: 300px;
     height: 300px; */
-    /* border: 2px solid coral; */
+    border: 2px solid   #27334e;    
+    /* box-shadow: 10px  #000000; */
+    box-shadow: 0px 2px 10px rgb(16, 19, 33);
     /* background-color: coral; */
-    width: 250px;
-    height: 250px;
+    width: 290px;
+    height: 290px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 2px 10px #f4f7ff;
+    background-color: #27334e;
     background-color: #27334e;
 }
 
@@ -350,7 +378,7 @@ h2{
     margin: 10px;
 }       
 .skil1:hover{
-   box-shadow: 0px 2px 10px coral;
+   box-shadow: 0px 2px 10px rgb(16, 19, 33);
    /* background-color: rgb(56, 57, 57); */
    opacity: 0.7;
     transform: scale(0.98);
@@ -415,11 +443,11 @@ h2{
 }
 .pro1 img:hover{
   
-    box-shadow: 2px 4px 3px coral;
+    box-shadow: 2px 4px 3px rgb(16, 19, 33);
     opacity: 0.7;
     transform: scale(0.98);
     background-color: coral;
-    border: 2px solid coral;
+    border: 2px solidrgb(16, 19, 33);
 }
 
 .contect h1{
@@ -439,6 +467,7 @@ h2{
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 .cont2 iconify-icon{
     padding: 5px;
@@ -446,7 +475,7 @@ h2{
     color: white;
     border: 2px solid coral;
     border-radius: 40px;
-    margin-left: 20px;
+    margin-left: 16px;
 
 }
 .cont2 iconify-icon:hover{
@@ -567,15 +596,7 @@ textarea{
     font-size: 24px;
   }
 
-  /* #menu-icon {
-    font-size: 24px;
-    cursor: pointer;
-    z-index: 10001;
-    display: none;
-    color: #fff;
-    font-size: 54px;
-  
-  } */
+ 
   .fas{
     display: initial;
     color:  var(--text-color);
@@ -583,7 +604,7 @@ textarea{
     font-size: 54px;
     float: right;
     margin-top: 10px;
-    /* margin-left: 40px; */
+   
    
     
    
